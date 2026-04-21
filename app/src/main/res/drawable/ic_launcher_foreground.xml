@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <circle
+        android:fillColor="#FFFFFF"
+        android:cx="54"
+        android:cy="54"
+        android:r="40"/>
+    <circle
+        android:fillColor="#C62828"
+        android:cx="54"
+        android:cy="54"
+        android:r="30"/>
+    <circle
+        android:fillColor="#FFFFFF"
+        android:cx="54"
+        android:cy="54"
+        android:r="20"/>
+    <circle
+        android:fillColor="#C62828"
+        android:cx="54"
+        android:cy="54"
+        android:r="10"/>
+    <circle
+        android:fillColor="#FFFFFF"
+        android:cx="54"
+        android:cy="54"
+        android:r="4"/>
+</vector>

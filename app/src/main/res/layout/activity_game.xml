@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <!-- Toolbar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/green_primary"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="8dp">
+
+        <Button
+            android:id="@+id/btnBack"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="←"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="X01"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/tvCheckout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFEB3B"
+            android:textSize="12sp"
+            android:paddingEnd="8dp"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+    <!-- Scoreboard -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerScoreboard"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/surface" />
+
+    <!-- Current turn info -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green_dark"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="6dp">
+
+        <TextView
+            android:id="@+id/tvCurrentThrows"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/tvTurnScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFEB3B"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingHorizontal="8dp" />
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+    <!-- Number pad -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="7"
+        android:background="@color/divider"
+        android:padding="1dp">
+
+        <Button android:id="@+id/btn1" style="@style/NumberButton" android:layout_width="0dp" android:layout_columnWeight="1" android:text="1" android:layout_margin="1dp" />
+        <Button android:id="@+id/btn2" style="@style/NumberButton" android:layout_width="0dp" android:layout_columnWeight="1" android:text="2" android:layout_margin="1dp" />
+        <Button android:id="@+id/btn3" style="@style/NumberButton" android:layout_width="0dp" android:layout_columnWeight="1" android:text="3" android:layout_margin="1dp" />
+        <Button android:id="@+id/btn4" style="@style/NumberButton" android:layout_width="0dp" android:layout_columnWeight="1" android:text="4" android:layout_margin="1dp" />
+        <Button android:id="@+id/btn5" style="@style/NumberButton" android:layout_width="0dp" android:layout_columnWeight="1" android:text="5" android:layout_margin="1dp" />
+        <Button android:id="@+id/btn6" style="@style/NumberButton" android:layout_width="0dp" android:layout_columnWeight="1" android:text="6" android:layout_margin="1dp" />
+        <Button android:id="@+id/btn7" style="@style/NumberButton" android:layout_width="0dp" android:layout_columnWeight="1" android:text="7" android:layout_margin="1dp" />
+
+        <Button android:id="@+id/btn8" style="@style/NumberButton" android:layout_width="0dp" android:layout_columnWeight="1" android:text="8" android:layout_margin="1dp" />
+        <Button android:id="@+id/btn9" style="@style/NumberButton" android:layout_width="0dp" android:layout_columnWeight="1" android:text="9" android:layout_margin="1dp" />
+        <Button android:id="@+id/btn10" style="@style/NumberButton" android:layout_width="0dp" android:layout_columnWeight="1" android:text="10" android:layout_margin="1dp" />
+        <Button android:id="@+id/btn11" style="@style/NumberButton" android:layout_width="0dp" android:layout_columnWeight="1" android:text="11" android:layout_margin="1dp" />
+        <Button android:id="@+id/btn12" style="@style/NumberButton" android:layout_width="0dp" android:layout_columnWeight="1" android:text="12" android:layout_margin="1dp" />
+        <Button android:id="@+id/btn13" style="@style/NumberButton" android:layout_width="0dp" android:layout_columnWeight="1" android:text="13" android:layout_margin="1dp" />
+        <Button android:id="@+id/btn14" style="@style/NumberButton" android:layout_width="0dp" android:layout_columnWeight="1" android:text="14" android:layout_margin="1dp" />
+
+        <Button android:id="@+id/btn15" style="@style/NumberButton" android:layout_width="0dp" android:layout_columnWeight="1" android:text="15" android:layout_margin="1dp" />
+        <Button android:id="@+id/btn16" style="@style/NumberButton" android:layout_width="0dp" android:layout_columnWeight="1" android:text="16" android:layout_margin="1dp" />
+        <Button android:id="@+id/btn17" style="@style/NumberButton" android:layout_width="0dp" android:layout_columnWeight="1" android:text="17" android:layout_margin="1dp" />
+        <Button android:id="@+id/btn18" style="@style/NumberButton" android:layout_width="0dp" android:layout_columnWeight="1" android:text="18" android:layout_margin="1dp" />
+        <Button android:id="@+id/btn19" style="@style/NumberButton" android:layout_width="0dp" android:layout_columnWeight="1" android:text="19" android:layout_margin="1dp" />
+        <Button android:id="@+id/btn20" style="@style/NumberButton" android:layout_width="0dp" android:layout_columnWeight="1" android:text="20" android:layout_margin="1dp" />
+        <Button android:id="@+id/btn25" style="@style/NumberButton" android:layout_width="0dp" android:layout_columnWeight="1" android:text="25" android:layout_margin="1dp" />
+
+        <Button android:id="@+id/btn0" style="@style/NumberButton" android:layout_width="0dp" android:layout_columnWeight="1" android:text="0" android:layout_margin="1dp" />
+        <Button
+            android:id="@+id/btnDouble"
+            android:layout_width="0dp"
+            android:layout_columnWeight="2"
+            android:layout_height="@dimen/number_button_height"
+            android:layout_margin="1dp"
+            android:text="TUPLA"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:background="@color/orange_double" />
+        <Button
+            android:id="@+id/btnTriple"
+            android:layout_width="0dp"
+            android:layout_columnWeight="2"
+            android:layout_height="@dimen/number_button_height"
+            android:layout_margin="1dp"
+            android:text="KOLMEN"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:background="@color/orange_triple" />
+        <Button
+            android:id="@+id/btnUndo"
+            android:layout_width="0dp"
+            android:layout_columnWeight="2"
+            android:layout_height="@dimen/number_button_height"
+            android:layout_margin="1dp"
+            android:text="PERU"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:background="@color/red_primary" />
+
+    </GridLayout>
+
+</LinearLayout>

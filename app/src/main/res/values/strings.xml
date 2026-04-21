@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Darts</string>
+    <string name="start_game">ALOITA PELI</string>
+    <string name="add_player">Lisää pelaaja</string>
+    <string name="add_bot">+ Botti</string>
+    <string name="history">Historia</string>
+    <string name="settings">Asetukset</string>
+    <string name="players">Pelaajat</string>
+    <string name="points">Pisteet</string>
+    <string name="sets">Setit</string>
+    <string name="legs">Legit</string>
+    <string name="double_label">TUPLA</string>
+    <string name="triple_label">KOLMEN</string>
+    <string name="undo">PERU</string>
+    <string name="next_player">SEURAAVA</string>
+    <string name="winner">VOITTAJA</string>
+    <string name="new_game">UUSI PELI</string>
+    <string name="checkout_hint">Ulostulo</string>
+    <string name="average">Ka</string>
+    <string name="darts_thrown">Tikkoja</string>
+    <string name="delete">Poista</string>
+    <string name="delete_confirm">Haluatko varmasti poistaa tämän pelin?</string>
+    <string name="delete_all">Poista kaikki</string>
+    <string name="delete_all_confirm">Haluatko varmasti poistaa kaikki pelit?</string>
+    <string name="yes">Kyllä</string>
+    <string name="no">Ei</string>
+    <string name="no_history">Ei pelattuja pelejä</string>
+    <string name="bot">Botti</string>
+    <string name="player_name_hint">Pelaajan nimi</string>
+    <string name="bust">YLIMENO!</string>
+    <string name="leg_won">LEG VOITETTU!</string>
+    <string name="set_won">SETTI VOITETTU!</string>
+    <string name="game_won">PELI VOITETTU!</string>
+</resources>
